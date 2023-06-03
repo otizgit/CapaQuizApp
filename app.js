@@ -21,7 +21,7 @@ const data = [
     id: 4,
     question: "Which galaxy is planet earth located in?",
     answers: ["Cygnus A", "Virgo A", "Andromeda", "Milky Way"],
-    correct_answer: "Metamorphic",
+    correct_answer: "Milky Way",
   },
   {
     id: 5,
