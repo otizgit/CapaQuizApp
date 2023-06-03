@@ -23,6 +23,7 @@ html {
 body {
     position: relative;
     min-height: 100vh;
+    padding-bottom: 5em;
 }
 
 .title {
@@ -39,7 +40,7 @@ body {
     position: relative;
     /* inset: 0; */
     margin: auto;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
     width: 60%;
     height: 350px;
     overflow: hidden;
@@ -96,7 +97,7 @@ button {
     gap: 3em;
 }
 .toggles button {
-    width: 8em;
+    width: 7em;
     padding-block: 1em;
     background-color: purple;
     border: unset;
@@ -152,4 +153,48 @@ button {
 }
 .message-margin {
     margin-bottom: 1.2em;
+}
+
+@media (max-width: 960px) {
+    .container, .toggles {
+        width: 70%;
+    }
+    .toggles {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40%;
+        margin-inline: auto;
+        gap: 1em;
+    }
+    .toggles button {
+        width: unset;
+        padding-block: 1em;
+        background-color: purple;
+        border: unset;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+        height: 550px;
+    }
+    .toggles {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-inline: auto;
+        gap: 1em;
+    }
+    .toggles button {
+        width: unset;
+        padding-block: 1em;
+        background-color: purple;
+        border: unset;
+    }
+    .button-div {
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: center;
+        gap: 2em;
+    }
 }
