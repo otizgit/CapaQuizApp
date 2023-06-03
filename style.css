@@ -62,7 +62,7 @@ body {
     display: grid;
     border: 2px solid rgb(165, 165, 165);
     place-items: center;
-    color: black;
+    color: rgb(209, 209, 209);
     font-weight: 500;
     margin-inline: auto;
     margin-bottom: 2rem;
@@ -101,7 +101,9 @@ button {
     padding-block: 1em;
     background-color: purple;
     border: unset;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
 }
 .toggles button:hover {
     background-color: rgb(109, 0, 109);
