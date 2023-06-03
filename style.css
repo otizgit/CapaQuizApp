@@ -79,13 +79,13 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 2em;
+    font-size: 1.5rem;
 }
 
 button {
     all: unset;
     border: 2px solid var(--priClr);
     padding: 1em 2.5em;
-    font-size: 1.5rem;
     border-radius: .5rem;
     cursor: pointer;
     text-align: center;
@@ -101,6 +101,7 @@ button {
     padding-block: 1em;
     background-color: purple;
     border: unset;
+    font-size: 1.5rem;
 }
 .toggles button:hover {
     background-color: rgb(109, 0, 109);

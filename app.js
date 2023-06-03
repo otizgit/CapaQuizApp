@@ -286,7 +286,6 @@ function getQuestions() {
         resultSpan.classList.add("pass");
         message.innerText = "Congratulations on passing the quiz!😊";
       }
-      console.log(correctAnswersArray)
       result.innerText = `Your Score: ${correctAnswersArray.length}/${data.length} - `;
       resultSpan.innerText = `${percentageScore}%`;
     }
